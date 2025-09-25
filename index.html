@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lotto Lux 🎟️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎰 Lotto Lux</h1>
+    <p>Buy your ticket and try your luck!</p>
+
+    <!-- Ticket Form -->
+    <form id="ticketForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="text" id="numbers" placeholder="Numbers (e.g. 5,12,23)" required>
+      <button type="submit">Buy Ticket 🎟️</button>
+    </form>
+
+    <p id="status"></p>
+
+    <!-- Tickets List -->
+    <h2>All Tickets</h2>
+    <ul id="ticketsList"></ul>
+
+    <!-- Draw Button -->
+    <button id="drawBtn">🎉 Draw Winner</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
